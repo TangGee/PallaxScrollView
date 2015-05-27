@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParallaxParamster">
+        <attr name="parallax_aphal" format="boolean"></attr>
+        <attr name="parallax_scaleX" format="boolean"></attr>
+        <attr name="parallax_scaleY" format="boolean"></attr>
+        <attr name="parallax_threshold" format="float"/>
+        <attr name="parallax_fromBgColor" format="color"/>
+        <attr name="parallax_toBgColor" format="color"/>
+        <attr name="parallax_translation"/>
+    </declare-styleable>
+
+    <attr name="parallax_translation">
+
+        <flag name="fromTop" value="0x01"></flag>
+        <flag name="fromBottom" value="0x02"></flag>
+        <flag name="fromLeft" value="0x04"></flag>
+        <flag name="fromRight" value="0x08"></flag>
+
+    </attr>
+    
+</resources>
